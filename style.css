@@ -1,22 +1,22 @@
 :root {
-    --cor-primairia: #cc0000;
+    --cor-primairia: #002244;
     --cor-secundaria: #ffffff;
-    --cor-titulo: #cc0000;
-    --cor-fundo: #ffffff;
-    --cor-texto: #cc0000;
-    --cor-contraste: #ffffff;
-    --cor-botao: #cc0000;
+    --cor-titulo: #002244;
+    --cor-fundo: #f4f6f9;
+    --cor-texto: #c8102e;
+    --cor-contraste: #ffc72c;
+    --cor-botao: #c8102e;
     --fonte-texto: 'Segoe UI', sans-serif;
 }
 
 .tema-escuro {
-    --cor-primairia: #ff4d4d;
-    --cor-secundaria: #ffffff;
-    --cor-titulo: #ff4d4d;
-    --cor-fundo: #2e2e2e;
-    --cor-texto: #ff4d4d;
-    --cor-contraste: #2e2e2e;
-    --cor-botao: #ff4d4d;
+    --cor-primairia: #0055a5;
+    --cor-secundaria: #f4f6f9;
+    --cor-titulo: #ffc72c;
+    --cor-fundo: #0a1118;
+    --cor-texto: #ff2a4b;
+    --cor-contraste: #ffc72c;
+    --cor-botao: #ff2a4b;
 }
 
 .tema-escuro p {
@@ -26,6 +26,7 @@
 body {
     max-width: 100vw;
     font-family: var(--fonte-texto);
+    background-color: var(--cor-fundo);
 }
 
 header {
@@ -91,27 +92,9 @@ article {
     object-fit: cover;
 }
 
-.imagem-html {
-    width: 80px;
-    height: 80px;
-    filter: drop-shadow(0px 0px 12px grey);
-    margin-right: 15px;
-}
-
-.imagem-css {
-    width: 80px;
-    height: 80px;
-    filter: drop-shadow(0px 0px 12px grey);
-    margin-right: 15px;
-}
-
-.imagem-js {
-    width: 80px;
-    height: 80px;
-    filter: drop-shadow(0px 0px 12px grey);
-    margin-right: 15px;
-}
-
+.imagem-html,
+.imagem-css,
+.imagem-js,
 .imagem-py {
     width: 80px;
     height: 80px;
@@ -125,22 +108,7 @@ article {
     height: 20px;
 }
 
-.button-1 {
-    width: 50px;
-    height: 25px;
-    padding: 10px;
-    border: 2px solid var(--cor-primairia);
-    background-color: transparent;
-    color: var(--cor-texto);
-    border-radius: 5px;
-    margin: 0;
-    box-sizing: border-box;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
+.button-1,
 .button-2 {
     width: 50px;
     height: 25px;
@@ -166,5 +134,5 @@ article {
     background-color: var(--cor-primairia);
     border-radius: 50%;
     border: none;
-    color: #ffffff;
+    color: var(--cor-contraste);
 }
