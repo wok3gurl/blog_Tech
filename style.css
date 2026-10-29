@@ -99,7 +99,8 @@ article {
     width: 80px;
     height: 80px;
     filter: drop-shadow(0px 0px 12px grey);
-    margin-right: 15px;
+    border-radius: 55%;
+    object-fit: cover;
 }
 
 .imagem-coracao,
